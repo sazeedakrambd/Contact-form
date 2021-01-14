@@ -1,0 +1,162 @@
+*{
+	margin: 0;
+	padding:0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+.header{
+	background-color: Black;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.header ul li a{color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.header ul li a:hover{
+	color: red;
+}
+
+.header ul li {display: inline-block;
+margin-right: 10px;
+margin-left: 10px;
+list-style: none;
+
+}
+
+.newsletter{
+	width: 100%;
+	background-color: #f5f5f5;
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	
+}
+
+.newsletter h1{
+	font-family: 'Roboto', sans-serif;
+	color: #2F323A;
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.newsletter p{
+	font-family: 'Poppins', sans-serif;
+	color: #6f6f6f;
+	font-size:15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.newsletter form{
+	margin-top: 23px;
+    margin-bottom: 20px;
+}
+
+.input-1{
+	padding: 18px;
+	width: 250px;
+}
+
+.input-2{
+	padding: 18px;
+	width: 360px;
+}
+.input-3{
+	padding:18px;
+	width: 130px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.input-3:hover{
+	background-color: red;
+	cursor: pointer;
+}
+
+.contact-form{
+	background-color: #EEE;
+	padding: 70px 0px;
+	text-align: center;
+}
+.contact-form h1{
+	font-family: 'Roboto', sans-serif;
+	color: #2F323A;
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.contact-form p{
+	font-family: 'Poppins', sans-serif;
+	color: #6f6f6f;
+	font-size:15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	}
+
+.input,
+.msg .area{
+	width: 353px;
+    padding: 18px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid
+}
+
+.msg .area{
+	    height: 160px;
+    width: 764px
+
+}
+.submit .btn{
+	padding: 18px;
+    width: 130px;
+    background-color: black;
+    color: white;
+    border: none;
+    width: 450px;
+    border-radius: 5px
+}
+
+.submit .btn:hover{
+	background-color: red;
+	cursor: pointer;
+}
+
+.portfolio{
+	background-color: #f5f5f5;
+	padding: 70px 0px;
+	text-align: center;
+}
+
+.portfolio ul li{
+	display: inline-block;
+	margin: 0px 15px;
+}
+.portfolio ul li a i{
+	height: 60px;
+	width: 60px;
+	background-color: red;
+	color:white;
+	line-height: 60px;
+	border-radius: 100%;
+	font-size: 22px;
+	transition: 0.5s ease-in-out;
+}
+
+.portfolio ul li a i:hover{
+	transform: scale(0.6);
+	transition: 0.5s ease-in-out;
+	background-color: black;
+}
